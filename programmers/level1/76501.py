@@ -3,6 +3,6 @@ def solution(absolutes, signs):
     for number, sign in zip(absolutes, signs):
         if sign:
             answer += number
-        else
+        else:
             answer -= number
     return answer
