@@ -12,6 +12,8 @@ def solution(n, weak, dist):
         for i, weakPoint in enumerate(weak):
             start = weakPoint
             ends = weak[i:] + [n + w for w in weak[:i]]
+
+            print(ends)
             can = set()
 
             for end in ends:
